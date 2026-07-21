@@ -39,7 +39,7 @@ def main():
 
     # Process single file
     if input_path.is_file():
-        if output_path.is_dir():
+        if not output_path.suffix:
             output_file = output_path / f"restored_{input_path.name}"
         else:
             output_file = output_path
