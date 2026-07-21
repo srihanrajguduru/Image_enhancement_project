@@ -1,0 +1,23 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specifics
+weights/
+*.pth
+*.pt
+temp_*.jpg
+temp_*.png
+logs/
+.ipynb_checkpoints/

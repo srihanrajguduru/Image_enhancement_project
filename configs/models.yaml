@@ -1,0 +1,20 @@
+dehazeformer:
+  name: "dehazeformer-b"
+  checkpoint_path: "weights/dehazeformer-b.pth"
+  download_url: ""
+  params:
+    in_channels: 3
+    out_channels: 3
+
+zero_dce:
+  name: "zero-dce-plus"
+  checkpoint_path: "weights/Epoch99.pth"
+  download_url: ""
+  params:
+    scale_factor: 1
+
+restormer:
+  name: "restormer-derain"
+  checkpoint_path: "weights/deraining.pth"
+  download_url: "https://github.com/swz30/Restormer/releases/download/v1.0/deraining.pth"
+  params: {}
